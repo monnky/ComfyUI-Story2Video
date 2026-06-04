@@ -9,6 +9,8 @@ Dialogue Mode (Explicit Script Format)
 Use this format when characters speak.
 Prefix every spoken line with CharacterName: "Quote" on a separate line.
 
+##Format start##
+
 Character Descriptions
 
 1. Mira the Rabbit (Age 10)
@@ -57,6 +59,8 @@ Location: Silverstream Riverbank
 The giant oak tree fell safely away from the reinforced bridge.
 
 Oliver: "The village is saved."
+
+##Format end##
 ```
 
 -----
@@ -66,6 +70,8 @@ Narration Mode (Voiceover Format)
 
 Use this format when you want a background voiceover to narrate the scenes.
 Prefix every narrator line with Narrator Voice: "Text" on a separate line.
+
+##Format start##
 
 Character Descriptions
 
@@ -102,6 +108,8 @@ Location: Silverstream Riverbank
 The giant oak tree fell safely away from the reinforced bridge.
 
 Narrator Voice: "When the storm arrived, the bridge stood strong, and the village was saved."
+##Format end##
+
 ```
 
 ----
@@ -112,6 +120,8 @@ No Audio Mode (Ambient / SFX Format)
 Use this format for silent visual stories.
 Omit all dialogue and narration tags completely.
 Only write the visual action description.
+
+##Format start##
 
 Character Descriptions
 
@@ -140,4 +150,5 @@ Scene 4: Aftermath
 Location: Silverstream Riverbank
 
 The tree crashes safely onto the muddy bank. Mira and Oliver stand side-by-side on the bridge, watching the storm clouds roll away.
+##Format end##
 ```
