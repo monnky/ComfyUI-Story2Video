@@ -2,7 +2,7 @@
 ![thank you](https://github.com/monnky/ComfyUI-Story2Video/blob/main/assets/comfyui_RT_story2video.png)
 
 
-## **Dialogue Mode (Explicit Script Format)**
+## **1. Dialogue Mode (Explicit Script Format)**
 
 ```text
 Dialogue Mode (Explicit Script Format)
