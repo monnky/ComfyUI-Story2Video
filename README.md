@@ -12,14 +12,13 @@ Prefix every spoken line with CharacterName: "Quote" on a separate line.
 ##Format start##
 
 Character Descriptions
-
-1. Mira the Rabbit (Age 10)
+Mira the Rabbit (Age 10)
 Humanoid small rabbit girl with soft silver fur and bright, expressive amber eyes. Wears a brown traveler's tunic, dark brown boots, and a small leather satchel over her hip. Curious, brave, impatient, and always asking questions.
 
-2. Oliver the Turtle (Age 11)
+Oliver the Turtle (Age 11)
 Humanoid large turtle boy with a deep green shell featuring intricate golden vine patterns. Wears flowing earth-toned green robes and carries a rolled parchment map under his arm. Wise, thoughtful, and moves slowly.
 
-3. Lumi the Firefly (Ancient)
+Lumi the Firefly (Ancient)
 A glowing golden firefly no larger than a thumb. Has delicate translucent wings and a glowing body that pulses with warm yellow light. Speaks in a gentle, warm voice.
 
 Scene 1: The Attic Discovery
@@ -49,7 +48,7 @@ Location: Silverstream Bridge
 
 They hurried to warn the villagers, but their warnings were ignored.
 
-Everyone: "No storm is coming."
+Mira: "They won't listen! They just keep saying, 'No storm is coming.'"
 
 Together they secured ropes to reinforce the bridge supports.
 
