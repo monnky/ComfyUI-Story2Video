@@ -13,51 +13,36 @@ Prefix every spoken line with CharacterName: "Quote" on a separate line.
 ##Format start##
 
 Character Descriptions
-Mira the Rabbit (Age 10)
-Humanoid small rabbit girl with soft silver fur and bright, expressive amber eyes. Wears a brown traveler's tunic, dark brown boots, and a small leather satchel over her hip. Curious, brave, impatient, and always asking questions.
-
-Oliver the Turtle (Age 11)
+1. Mira the Rabbit (Age 10)
+Humanoid small rabbit girl with soft silver fur and bright, expressive amber eyes. Wears a brown traveler's tunic, dark brown boots, and a small leather satchel over her hip. Curious, brave, impatient, and always asking questions. 
+2. Oliver the Turtle (Age 11)
 Humanoid large turtle boy with a deep green shell featuring intricate golden vine patterns. Wears flowing earth-toned green robes and carries a rolled parchment map under his arm. Wise, thoughtful, and moves slowly.
-
-Lumi the Firefly (Ancient)
+3. Lumi the Firefly (Ancient)
 A glowing golden firefly no larger than a thumb. Has delicate translucent wings and a glowing body that pulses with warm yellow light. Speaks in a gentle, warm voice.
 
 Scene 1: The Attic Discovery
 Location: The Attic of Willow Hollow Cottage
-
 Rain tapped softly on the roof while Mira explored her grandmother's dusty attic. She discovered a strange bronze lantern.
-
 Mira: "That's odd."
-
 Suddenly a tiny glowing firefly appeared.
-
 Lumi: "I am Lumi."
 
 Scene 2: The Forest Path
 Location: Moonleaf Forest Entrance
-
 Mira showed the lantern to Oliver under the moonlit oaks.
-
 Oliver: "A lantern can't remember tomorrow."
-
 The lantern suddenly glowed, showing a vision of a falling tree.
-
 Oliver: "If that's tomorrow, we have work to do."
 
 Scene 3: The Stone Bridge
 Location: Silverstream Bridge
-
 They hurried to warn the villagers, but their warnings were ignored.
-
-Mira: "They won't listen! They just keep saying, 'No storm is coming.'"
-
+The villagers shouted, "No storm is coming.'"
 Together they secured ropes to reinforce the bridge supports.
 
 Scene 4: Aftermath
 Location: Silverstream Riverbank
-
 The giant oak tree fell safely away from the reinforced bridge.
-
 Oliver: "The village is saved."
 
 ##Format end##
