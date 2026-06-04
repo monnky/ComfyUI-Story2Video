@@ -1,7 +1,8 @@
 
 ![thank you](https://github.com/monnky/ComfyUI-Story2Video/blob/main/assets/comfyui_RT_story2video.png)
 
-----
+
+## **Dialogue Mode (Explicit Script Format)**
 
 ```text
 Dialogue Mode (Explicit Script Format)
@@ -62,7 +63,7 @@ Oliver: "The village is saved."
 ##Format end##
 ```
 
------
+## **2. Narration Mode (Voiceover Format)**
 
 ```text
 Narration Mode (Voiceover Format)
@@ -111,7 +112,7 @@ Narrator Voice: "When the storm arrived, the bridge stood strong, and the villag
 
 ```
 
-----
+## **3. No Audio Mode (Ambient / SFX Format)**
 
 ```text
 No Audio Mode (Ambient / SFX Format)
