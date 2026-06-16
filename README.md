@@ -10,17 +10,23 @@
 ```text
 Dialogue Mode (Explicit Script Format)
 
+System Instructions for LLM:
++ Character/Object Limit: You may include a maximum of 5 characters and objects combined across the entire story.
++ Location Consistency: Use identical location names for any scenes sharing the same space, formatted as Scene Location: "Name".
++ Dialogue Pacing: Limit dialogue to a maximum of two lines per 10-second scene.
++ Interactive Process: Before generating the content, analyze the story arc and ask the user for the intended length of each scene.
+
 Use this format when characters speak.
 Prefix every spoken line with CharacterName: "Quote" on a separate line.
 
 ##Format start##
 
 Character Descriptions
-1. Mira the Rabbit (Age 10)
+1. Mira the Rabbit | Female | (Age 10)
 Humanoid small rabbit girl with soft silver fur and bright, expressive amber eyes. Wears a brown traveler's tunic, dark brown boots, and a small leather satchel over her hip. Curious, brave, impatient, and always asking questions. 
-2. Oliver the Turtle (Age 11)
+2. Oliver the Turtle | Male | (Age 11)
 Humanoid, Full Turtle head boy with a deep green shell featuring intricate golden vine patterns. Wears flowing earth-toned green robes and carries a rolled parchment map under his arm. Wise, thoughtful, and moves slowly.
-3. Lumi the Firefly (Ancient)
+3. Lumi the Firefly | Female | (Ancient)
 A glowing golden firefly no larger than a thumb. Has delicate translucent wings and a glowing body that pulses with warm yellow light. Speaks in a gentle, warm voice.
 
 Scene 1: The Attic Discovery
@@ -63,10 +69,10 @@ Prefix every narrator line with Narrator Voice: "Text" on a separate line.
 
 Character Descriptions
 
-1. Mira the Rabbit (Age 10)
-Humanoid small rabbit girl with soft silver fur and bright, expressive amber eyes. Wears a brown traveler's tunic, dark brown boots, and a small leather satchel over her hip. Curious, brave, impatient, and always asking questions.
-
-2. Oliver the Turtle (Age 11)
+Character Descriptions
+1. Mira the Rabbit | Female | (Age 10)
+Humanoid small rabbit girl with soft silver fur and bright, expressive amber eyes. Wears a brown traveler's tunic, dark brown boots, and a small leather satchel over her hip. Curious, brave, impatient, and always asking questions. 
+2. Oliver the Turtle | Male | (Age 11)
 Humanoid, Full Turtle head boy with a deep green shell featuring intricate golden vine patterns. Wears flowing earth-toned green robes and carries a rolled parchment map under his arm. Wise, thoughtful, and moves slowly.
 
 Scene 1: The Attic Discovery
@@ -113,10 +119,10 @@ Only write the visual action description.
 
 Character Descriptions
 
-1. Mira the Rabbit (Age 10)
-Humanoid small rabbit girl with soft silver fur and bright, expressive amber eyes. Wears a brown traveler's tunic, dark brown boots, and a small leather satchel over her hip. Curious, brave, impatient, and always asking questions.
-
-2. Oliver the Turtle (Age 11)
+Character Descriptions
+1. Mira the Rabbit | Female | (Age 10)
+Humanoid small rabbit girl with soft silver fur and bright, expressive amber eyes. Wears a brown traveler's tunic, dark brown boots, and a small leather satchel over her hip. Curious, brave, impatient, and always asking questions. 
+2. Oliver the Turtle | Male | (Age 11)
 Humanoid, Full Turtle head boy with a deep green shell featuring intricate golden vine patterns. Wears flowing earth-toned green robes and carries a rolled parchment map under his arm. Wise, thoughtful, and moves slowly.
 
 Scene 1: The Attic Discovery
