@@ -4,6 +4,12 @@
 
 ![thank you](https://github.com/monnky/ComfyUI-Story2Video/blob/main/assets/comfyui_RT_story2video.png)
 
+## **Simple Format**
+
+```text
+Once upon a time, a cheerful young girl named Little Red Riding Hood set off through the dark, winding woods to deliver a basket of fresh treats to her ailing grandmother. Along the way, she naively crossed paths with a cunning wolf, who secretly raced ahead to the cottage, swallowed the poor grandmother whole, and disguised himself in her nightgown and cap. When the girl finally arrived, she questioned her "grandmother's" unusually large eyes, ears, and teeth, only to realize the horrible truth too late as the greedy beast lunged forward to devour her as well. Fortunately, a brave woodsman passing by heard her terrified cries, burst into the cabin, and struck down the wicked wolf, freeing both the girl and her grandmother so they could safely share their treats and live happily ever after.
+```
+
 
 ## **1. Dialogue Mode (Explicit Script Format)**
 
