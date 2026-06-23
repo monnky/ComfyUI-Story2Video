@@ -5,9 +5,29 @@
 ![thank you](https://github.com/monnky/ComfyUI-Story2Video/blob/main/assets/comfyui_RT_story2video.png)
 
 ## **Simple Format**
-
 ```text
-Once upon a time, a cheerful young girl named Little Red Riding Hood set off through the dark, winding woods to deliver a basket of fresh treats to her ailing grandmother. Along the way, she naively crossed paths with a cunning wolf, who secretly raced ahead to the cottage, swallowed the poor grandmother whole, and disguised himself in her nightgown and cap. When the girl finally arrived, she questioned her "grandmother's" unusually large eyes, ears, and teeth, only to realize the horrible truth too late as the greedy beast lunged forward to devour her as well. Fortunately, a brave woodsman passing by heard her terrified cries, burst into the cabin, and struck down the wicked wolf, freeing both the girl and her grandmother so they could safely share their treats and live happily ever after.
+Story Name : Little Red Riding Hood.
+
+Character Descriptions
+01 Little Red Riding Hood, Female, [HUMANOID]
+Age 10, A cheerful young human girl with bright, innocent eyes and a sweet, trusting smile. Wears a simple peasant dress underneath a signature bright red hooded cloak and carries a woven wicker basket filled with fresh treats. Kind-hearted, naive, easily distracted, and overly trusting of strangers.
+
+02 The Wolf, Male, [CREATURE]
+Adult, A large, imposing woodland wolf with coarse dark gray fur, unusually large yellow eyes, towering ears, and rows of razor-sharp teeth. Capable of standing on his hind legs to disguise himself in a stolen nightgown and frilly cap. Cunning, greedy, highly deceptive, and wicked.
+
+03 Grandmother, Female, [HUMANOID]
+Age 75, A gentle, frail human woman with thinning silver hair and tired, warm eyes. Wears a long white cotton nightgown, a matching ruffled sleeping cap, and delicate wire-rimmed spectacles. Loving, sweet-natured, welcoming, and currently ailing in health.
+
+04 The Woodsman, Male, [HUMANOID]
+Age 35, A tall, burly human man with broad shoulders, strong hands, and a thick, rugged beard. Wears a sturdy flannel shirt, worn leather suspenders, heavy work boots, and always carries a large, gleaming steel axe. Brave, vigilant, quick to action, and fiercely protective.
+
+Once upon a time, a cheerful young girl named Little Red Riding Hood went into the woods to bring a basket of fresh treats to her sick grandmother.
+Along the way, she met a clever wolf and accidentally told him where she was going.
+The wolf quickly ran ahead to the cottage, hid the grandmother in a room, and put on her nightgown to disguise himself in bed.
+When the girl arrived, she noticed her grandmother looked very strange and asked about her large eyes, ears, and teeth, prompting the wolf to jump out of bed to catch her.
+Fortunately, a brave woodsman passing by heard the noise, rushed into the cabin, and saved Little Red Riding Hood before freeing her grandmother from the room so
+they could all safely enjoy their treats together happily ever after.
+
 ```
 
 
