@@ -77,46 +77,57 @@ Oliver: "The village is saved."
 ```text
 Narration Mode (Voiceover Format)
 
+System Instructions for LLM:
++ Character/Object Limit: You may include a maximum of 5 characters and a maximum of 5 objects — tracked as two separate caps, not a combined pool.
++ Location Consistency: Use identical location names for any scenes sharing the same space, formatted as Location "Name".
++ Narration Pacing: Limit narration to a maximum of two lines per 10-second scene.
++ Interactive Process: Before generating the content, analyze the story arc and ask the user for the intended length of each scene. Then ask the user how many total scenes they want the full story to be generated in. Only begin generating content after both answers are received.
++ Asset Registry & Entity Formatting Rule: For any character that changes forms (e.g., shapeshifters, deities, or spirits), generate two fully separate character entries with distinct, independent names — one under [HUMANOID] rules and one under [ANIMAL] or [CREATURE] rules as applicable — each with its own complete physical description. Treat them as two distinct characters for all registry and formatting purposes; do not blend anatomy traits between forms, and do not merge or cross-reference their names. Each counts separately toward the Character/Object Limit. Scene text should reference whichever named entity is present in that scene.
++ Character Appearance Consistency Rule: Every character's defining physical traits — species/form tag, age, body coloring/markings, size, and signature clothing/accessories — must be established once in the Character Descriptions block. In every scene where that character physically appears, naturally reintroduce their key visual traits within the narration prose itself (not as a separate tag or aside), so each scene's description remains self-contained and visually consistent even if read in isolation. Traits must never be contradicted, omitted, or re-colored between scenes. If a character's appearance genuinely changes during the story, describe the change directly within that scene's narration in plain descriptive language, and that new appearance becomes the baseline for all following scenes.
++ Markdown & Formatting Restriction: Do NOT use markdown bolding, asterisks, or any special formatting symbols anywhere in the output, including Scene headings, Character Descriptions, or narration lines.
++ Colon Usage Restriction: The colon symbol (:) may only be used for the narrator tag (Narrator Voice: "Text"). Do NOT use colons in scene headings, location lines, IDs, or any other structural label. Strip any stray formatting symbols (such as **, __, ##) from all output, including content referenced or converted from another source.
++ Narration-Only Rule: This mode contains no character dialogue. Only visual action description (narration prose) and Narrator Voice lines are permitted. Do not include any CharacterName: "Quote" dialogue tags in this mode.
+
 Use this format when you want a background voiceover to narrate the scenes.
 Prefix every narrator line with Narrator Voice: "Text" on a separate line.
 
 ##Format start##
 
 Character Descriptions
+1. Mira the Rabbit, Female, [HUMANOID]
+Age 10, Small rabbit girl with soft silver fur and bright, expressive amber eyes. Wears a brown traveler's tunic, dark brown boots, and a small leather satchel over her hip. Curious, brave, impatient, and always asking questions.
 
-Character Descriptions
-1. Mira the Rabbit | Female | (Age 10)
-Humanoid small rabbit girl with soft silver fur and bright, expressive amber eyes. Wears a brown traveler's tunic, dark brown boots, and a small leather satchel over her hip. Curious, brave, impatient, and always asking questions. 
-2. Oliver the Turtle | Male | (Age 11)
-Humanoid, Full Turtle head boy with a deep green shell featuring intricate golden vine patterns. Wears flowing earth-toned green robes and carries a rolled parchment map under his arm. Wise, thoughtful, and moves slowly.
+2. Oliver the Turtle, Male, [HUMANOID]
+Age 11, Full Turtle head boy with a deep green shell featuring intricate golden vine patterns. Wears flowing earth-toned green robes and carries a rolled parchment map under his arm. Wise, thoughtful, and moves slowly.
 
-Scene 1: The Attic Discovery
-Location: The Attic of Willow Hollow Cottage
+Objects Descriptions
 
-Mira explored the dusty attic on a rainy afternoon, discovering a strange bronze lantern.
+Bronze Lantern, [OBJECT]
+A tarnished bronze lantern with an etched vine pattern circling its base, a curved iron handle, and a thick glass pane clouded with age. Glows with a faint amber light when active.
 
+Rolled Parchment Map, [OBJECT]
+An aged, yellowed parchment map tied with a frayed brown cord, its edges soft and curling, inked with faded trail markings in dark brown ink.
+
+Scene 1 The Attic Discovery
+Location "The Attic of Willow Hollow Cottage"
+Mira, the small rabbit girl with soft silver fur and amber eyes, explored the dusty attic on a rainy afternoon, discovering a strange bronze lantern tucked among old clocks.
 Narrator Voice: "Mira found a strange lantern hidden among her grandmother's old clocks."
 
-Scene 2: The Forest Path
-Location: Moonleaf Forest Entrance
-
-Mira showed the lantern to Oliver under the moonlit oaks.
-
+Scene 2 The Forest Path
+Location "Moonleaf Forest Entrance"
+Mira showed the lantern to Oliver, the turtle boy with his deep green shell and golden vine patterns, under the moonlit oaks.
 Narrator Voice: "Oliver was skeptical of the lantern's magic, until it showed them a vision of the future."
 
-Scene 3: The Stone Bridge
-Location: Silverstream Bridge
-
-They worked together to reinforce the old bridge supports while the villagers watched.
-
+Scene 3 The Stone Bridge
+Location "Silverstream Bridge"
+Mira and Oliver worked together to reinforce the old bridge supports while the villagers watched.
 Narrator Voice: "Determined to prevent a disaster, the two friends worked until sunset to secure the bridge."
 
-Scene 4: Aftermath
-Location: Silverstream Riverbank
-
+Scene 4 Aftermath
+Location "Silverstream Riverbank"
 The giant oak tree fell safely away from the reinforced bridge.
-
 Narrator Voice: "When the storm arrived, the bridge stood strong, and the village was saved."
+
 ##Format end##
 
 ```
@@ -126,6 +137,17 @@ Narrator Voice: "When the storm arrived, the bridge stood strong, and the villag
 ```text
 No Audio Mode (Ambient / SFX Format)
 
+System Instructions for LLM:
++ Character/Object Limit: You may include a maximum of 5 characters and a maximum of 5 objects — tracked as two separate caps, not a combined pool.
++ Location Consistency: Use identical location names for any scenes sharing the same space, formatted as Location "Name".
++ Action Pacing: Limit visual action description to a maximum of two lines per 10-second scene.
++ Interactive Process: Before generating the content, analyze the story arc and ask the user for the intended length of each scene. Then ask the user how many total scenes they want the full story to be generated in. Only begin generating content after both answers are received.
++ Asset Registry & Entity Formatting Rule: For any character that changes forms (e.g., shapeshifters, deities, or spirits), generate two fully separate character entries with distinct, independent names — one under [HUMANOID] rules and one under [ANIMAL] or [CREATURE] rules as applicable — each with its own complete physical description. Treat them as two distinct characters for all registry and formatting purposes; do not blend anatomy traits between forms, and do not merge or cross-reference their names. Each counts separately toward the Character/Object Limit. Scene text should reference whichever named entity is present in that scene.
++ Character Appearance Consistency Rule: Every character's defining physical traits — species/form tag, age, body coloring/markings, size, and signature clothing/accessories — must be established once in the Character Descriptions block. In every scene where that character physically appears, naturally reintroduce their key visual traits within the action description itself (not as a separate tag or aside), so each scene's description remains self-contained and visually consistent even if read in isolation. Traits must never be contradicted, omitted, or re-colored between scenes. If a character's appearance genuinely changes during the story, describe the change directly within that scene's action description in plain descriptive language, and that new appearance becomes the baseline for all following scenes.
++ Markdown & Formatting Restriction: Do NOT use markdown bolding, asterisks, or any special formatting symbols anywhere in the output, including Scene headings, Character Descriptions, or action lines.
++ Colon Usage Restriction: Do NOT use colons anywhere in this mode's output, including scene headings, location lines, IDs, or action description. Since this mode contains no dialogue or narration tags, no colon usage is required or permitted. Strip any stray formatting symbols (such as **, __, ##) from all output, including content referenced or converted from another source.
++ Silent Mode Rule: This mode contains no dialogue and no narration. Omit all CharacterName: "Quote" tags and all Narrator Voice tags completely. Only write pure visual action description — what is seen happening on screen — for each scene.
+
 Use this format for silent visual stories.
 Omit all dialogue and narration tags completely.
 Only write the visual action description.
@@ -133,31 +155,26 @@ Only write the visual action description.
 ##Format start##
 
 Character Descriptions
+1. Mira the Rabbit, Female, [HUMANOID]
+Age 10, Small rabbit girl with soft silver fur and bright, expressive amber eyes. Wears a brown traveler's tunic, dark brown boots, and a small leather satchel over her hip. Curious, brave, impatient, and always asking questions.
+2. Oliver the Turtle, Male, [HUMANOID]
+Age 11, Full Turtle head boy with a deep green shell featuring intricate golden vine patterns. Wears flowing earth-toned green robes and carries a rolled parchment map under his arm. Wise, thoughtful, and moves slowly.
 
-Character Descriptions
-1. Mira the Rabbit | Female | (Age 10)
-Humanoid small rabbit girl with soft silver fur and bright, expressive amber eyes. Wears a brown traveler's tunic, dark brown boots, and a small leather satchel over her hip. Curious, brave, impatient, and always asking questions. 
-2. Oliver the Turtle | Male | (Age 11)
-Humanoid, Full Turtle head boy with a deep green shell featuring intricate golden vine patterns. Wears flowing earth-toned green robes and carries a rolled parchment map under his arm. Wise, thoughtful, and moves slowly.
+Scene 1 The Attic Discovery
+Location "The Attic of Willow Hollow Cottage"
+Mira, the small rabbit girl with soft silver fur and amber eyes, walks through the dusty attic holding up an old clock. She dusts off a strange bronze lantern, and a soft golden light flickers inside.
 
-Scene 1: The Attic Discovery
-Location: The Attic of Willow Hollow Cottage
+Scene 2 The Forest Path
+Location "Moonleaf Forest Entrance"
+Mira holds the glowing lantern next to Oliver, the turtle boy with his deep green shell and golden vine patterns, pointing to the carvings on the glass. They look up in awe as golden dust floats around them.
 
-Mira walks through the dusty attic, holding up an old clock. She dusts off a strange bronze lantern. A soft golden light flickers inside.
-
-Scene 2: The Forest Path
-Location: Moonleaf Forest Entrance
-
-Mira holds the glowing lantern next to Oliver, pointing to the carvings on the glass. They look up in awe as golden dust floats around them.
-
-Scene 3: The Stone Bridge
-Location: Silverstream Bridge
-
+Scene 3 The Stone Bridge
+Location "Silverstream Bridge"
 Mira and Oliver tie thick ropes around the leaning oak tree, straining as they secure it to the stone pillars.
 
-Scene 4: Aftermath
-Location: Silverstream Riverbank
+Scene 4 Aftermath
+Location "Silverstream Riverbank"
+The tree crashes safely onto the muddy bank. Mira and Oliver stand side by side on the bridge, watching the storm clouds roll away.
 
-The tree crashes safely onto the muddy bank. Mira and Oliver stand side-by-side on the bridge, watching the storm clouds roll away.
 ##Format end##
 ```
