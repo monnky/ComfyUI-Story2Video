@@ -94,6 +94,7 @@ Prefix every narrator line with Narrator Voice: "Text" on a separate line.
 ##Format start##
 
 Character Descriptions
+
 1. Mira the Rabbit, Female, [HUMANOID]
 Age 10, Small rabbit girl with soft silver fur and bright, expressive amber eyes. Wears a brown traveler's tunic, dark brown boots, and a small leather satchel over her hip. Curious, brave, impatient, and always asking questions.
 
@@ -155,10 +156,20 @@ Only write the visual action description.
 ##Format start##
 
 Character Descriptions
+
 1. Mira the Rabbit, Female, [HUMANOID]
 Age 10, Small rabbit girl with soft silver fur and bright, expressive amber eyes. Wears a brown traveler's tunic, dark brown boots, and a small leather satchel over her hip. Curious, brave, impatient, and always asking questions.
+
 2. Oliver the Turtle, Male, [HUMANOID]
 Age 11, Full Turtle head boy with a deep green shell featuring intricate golden vine patterns. Wears flowing earth-toned green robes and carries a rolled parchment map under his arm. Wise, thoughtful, and moves slowly.
+
+Objects Descriptions
+
+Bronze Lantern, [OBJECT]
+A tarnished bronze lantern with an etched vine pattern circling its base, a curved iron handle, and a thick glass pane clouded with age. Glows with a faint amber light when active.
+
+Rolled Parchment Map, [OBJECT]
+An aged, yellowed parchment map tied with a frayed brown cord, its edges soft and curling, inked with faded trail markings in dark brown ink.
 
 Scene 1 The Attic Discovery
 Location "The Attic of Willow Hollow Cottage"
