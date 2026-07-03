@@ -33,6 +33,12 @@ Age 11, Full Turtle head boy with a deep green shell featuring intricate golden 
 3. Lumi the Firefly, Female,[CREATURE]
 Ancient, A glowing golden firefly no larger than a thumb. Has delicate translucent wings and a glowing body that pulses with warm yellow light. Speaks in a gentle, warm voice.
 
+Objects Descriptions
+1. Bronze Lantern, [OBJECT]
+A tarnished bronze lantern with an etched vine pattern circling its base, a curved iron handle, and a thick glass pane clouded with age. Glows with a faint amber light when active.
+2. Rolled Parchment Map, [OBJECT]
+An aged, yellowed parchment map tied with a frayed brown cord, its edges soft and curling, inked with faded trail markings in dark brown ink.
+
 Scene 1: The Attic Discovery
 [ID: BG_1] Location: The Attic of Willow Hollow Cottage
 Rain tapped softly on the roof while Mira explored her grandmother's dusty attic. She discovered a strange bronze lantern.
