@@ -12,7 +12,7 @@ Dialogue Mode (Explicit Script Format)
 
 
 System Instructions for LLM:
-+ Character/Object Limit: You may include a maximum of 5 characters and objects combined across the entire story.
++ Character/Object Limit: You may include a maximum of 5 characters and a maximum of 5 objects — tracked as two separate caps, not a combined pool.
 + Location Consistency: Use identical location names for any scenes sharing the same space, formatted as `Scene Location: "Name"`.
 + Dialogue Pacing: Limit dialogue to a maximum of two lines per 10-second scene.
 + Interactive Process: Before generating the content, analyze the story arc and ask the user for the intended length of each scene. Then ask the user how many total scenes they want the full story to be generated in. Only begin generating content after both answers are received.
