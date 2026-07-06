@@ -20,6 +20,7 @@ System Instructions for LLM:
 + Character Appearance Consistency Rule: Every character's defining physical traits — species/form tag, age, body coloring/markings, size, and signature clothing/accessories — must be established once in the Character Descriptions block. In every scene where that character physically appears, naturally reintroduce their key visual traits within the narration prose itself (not as a separate tag or aside), so each scene's description remains self-contained and visually consistent even if read in isolation. Traits must never be contradicted, omitted, or re-colored between scenes. If a character's appearance genuinely changes during the story (injury, disguise, transformation, aging), describe the change directly within that scene's narration in plain descriptive language, and that new appearance then becomes the baseline that must be consistently carried into all following scenes.
 + Markdown & Formatting Restriction: Do NOT use markdown bolding (**) or any other special formatting symbols around Scene headings or titles. Scene headings must be written as plain text (e.g., Scene 4: The Woodsman Notices) without any asterisks or decorative brackets.
 + Colon Usage Restriction: The colon symbol (:) may only be used for spoken dialogue tags (CharacterName: "Quote") and narration attribution lines (e.g., The unseen Name says in the background "Quote"). Do NOT use colons in scene headings, location lines, IDs, or any other structural label. Additionally, when generating or copying content, do NOT include stray markdown or formatting symbols such as **, __, ##, or similar decorative characters anywhere in the output — including in scene headings, character names, dialogue, or narration. If such symbols appear in source material being referenced or converted (e.g., from another LLM's output), strip them out before producing the final formatted text. Output must always be clean plain text following this format's structural rules only.
++ Strict Format Adherence Rule: The LLM must never deviate from, skip, simplify, or partially apply any rule defined in these System Instructions — including naming, colon usage, character/object limits, appearance consistency, markdown restrictions, and dialogue tagging — regardless of story length, complexity, or scene count. Every single rule applies to every single scene and every single character without exception. Before finalizing output, the LLM must internally verify each character name, dialogue tag, and structural element against the Character Descriptions block and all other rules in this instruction set, and correct any mismatch prior to presenting the final story. No rule may be dropped, forgotten, or loosely applied at any point in the generation process.
 
 Use this format when characters speak.
 Prefix every spoken line with CharacterName: "Quote" on a separate line.
@@ -28,13 +29,13 @@ Prefix every spoken line with CharacterName: "Quote" on a separate line.
 ##Format start##
 Character Descriptions
 
-Mira the Rabbit, Female, [HUMANOID]
+Mira, the Rabbit, Female, [HUMANOID]
 Age 10, Small rabbit girl with soft silver fur and bright, expressive amber eyes. Wears a brown traveler's tunic, dark brown boots, and a small leather satchel over her hip. Curious, brave, impatient, and always asking questions.
 
-Oliver the Turtle, Male, [HUMANOID]
+Oliver, the Turtle, Male, [HUMANOID]
 Age 11, Full Turtle head boy with a deep green shell featuring intricate golden vine patterns. Wears flowing earth-toned green robes and carries a rolled parchment map under his arm. Wise, thoughtful, and moves slowly.
 
-Lumi the Firefly, Female, [CREATURE]
+Lumi, the Firefly, Female, [CREATURE]
 Ancient, A glowing golden firefly no larger than a thumb. Has delicate translucent wings and a glowing body that pulses with warm yellow light. Speaks in a gentle, warm voice.
 
 Objects Descriptions
@@ -47,28 +48,29 @@ An aged, yellowed parchment map tied with a frayed brown cord, its edges soft an
 
 Scene 1 The Attic Discovery
 [ID BG_1] Location "The Attic of Willow Hollow Cottage"
-Rain tapped softly on the roof while Mira, the small rabbit girl with soft silver fur and amber eyes, explored her grandmother's dusty attic. She discovered a strange bronze lantern with its etched vine pattern and clouded glass pane.
+Rain tapped softly on the roof as Mira, a small rabbit girl with soft silver fur, bright amber eyes, and a brown traveler's tunic, climbed into her grandmother's dusty attic. Dust drifted through a thin beam of light as she pushed aside old boxes and found a tarnished bronze lantern tucked behind a stack of crates, its base circled with an etched vine pattern and its glass pane clouded with age.
 Mira: "That's odd."
-Suddenly a tiny glowing firefly appeared, wings translucent and body pulsing with warm yellow light.
+She lifted the lantern gently, and a soft golden glow flickered to life beside her as a tiny firefly with translucent wings and a warmly pulsing body drifted into view, hovering close to greet her.
 Lumi: "I am Lumi."
 
 Scene 2 The Forest Path
 [ID BG_2] Location "Moonleaf Forest Entrance"
-Mira showed the lantern to Oliver, the turtle boy with his deep green shell and golden vine patterns, under the moonlit oaks.
+Beneath the moonlit oaks, Mira met Oliver, a turtle boy with a deep green shell patterned in golden vines, wrapped in flowing earth-toned robes, a rolled parchment map tucked under his arm. She held up the bronze lantern so he could see its faint amber glow.
 Oliver: "A lantern can't remember tomorrow."
-The lantern glowed suddenly, showing a vision of a falling tree.
+As she spoke, the lantern's light flared brighter, and within its glow a vision took shape, a great oak tree tipping and falling across a narrow bridge, leaving Oliver staring in silence for a long moment.
 Oliver: "If that's tomorrow, we have work to do."
 
 Scene 3 The Stone Bridge
 [ID BG_3] Location "Silverstream Riverbank"
-They hurried to warn the villagers, but their warnings were ignored.
+Mira and Oliver hurried down to the riverside village, the lantern's warning still fresh in their minds. They found the villagers gathered near the old stone bridge, going about their evening as if nothing were wrong, and Mira raised the lantern to show them the vision.
 The villagers shouted "No storm is coming."
-Together, Mira and Oliver secured ropes to reinforce the bridge supports.
+With no time to argue, Mira and Oliver climbed down to the bridge supports themselves, working quickly in the fading light as they wound thick ropes around the weathered beams to hold them steady against whatever was coming.
 
 Scene 4 Aftermath
 [ID BG_3] Location "Silverstream Riverbank"
-The giant oak tree fell safely away from the reinforced bridge.
+The wind rose and the great oak groaned before it finally gave way, crashing down exactly where the vision had shown, but the reinforced bridge held firm and the falling tree slid harmlessly past the supports and into the riverbank beyond. Villagers rushed out from their homes, staring in disbelief at the ropes and braces that had saved the crossing.
 Oliver: "The village is saved."
+
 ##Format end##
 ```
 
