@@ -28,6 +28,7 @@ Prefix every spoken line with CharacterName: "Quote" on a separate line.
 
 
 ##Format start##
+
 Character Descriptions
 
 Mira, Female, [HUMANOID]
@@ -50,28 +51,35 @@ A tarnished bronze lantern with an etched vine pattern circling its base, a curv
 Rolled Parchment Map, [OBJECT]
 An aged, yellowed parchment map tied with a frayed brown cord, its edges soft and curling, inked with faded trail markings in dark brown ink.
 
-Scene 1 The Attic Discovery
-[ID BG_1] Location "The Attic of Willow Hollow Cottage"
+Backgrounds Descriptions
+
+The Attic of Willow Hollow Cottage, [BG_1]
+A dusty attic lit by a thin beam of light filtering through the gloom. Old boxes and crates are stacked against the wooden walls. Rain taps softly on the roof outside.
+
+Moonleaf Forest Entrance, [BG_2]
+A dark forest path beneath ancient moonlit oaks. Deep shadows contrast with cool silver moonlight filtering through the canopy.
+
+Silverstream Riverbank, [BG_3]
+A riverbank near a riverside village featuring an old stone bridge supported by thick weathered wooden beams crossing a rushing stream.
+
+Scene 1
 Rain tapped softly on the roof as Mira, a small rabbit girl with soft silver fur, bright amber eyes, and a brown traveler's tunic, climbed into her grandmother's dusty attic. Dust drifted through a thin beam of light as she pushed aside old boxes and found a tarnished bronze lantern tucked behind a stack of crates, its base circled with an etched vine pattern and its glass pane clouded with age. 
 Mira: "That's odd."
 She lifted the lantern gently, and a soft golden glow flickered to life beside her as a tiny firefly with translucent wings and a warmly pulsing body drifted into view, hovering close to greet her.
 Lumi: "I am Lumi."
 
-Scene 2 The Forest Path
-[ID BG_2] Location "Moonleaf Forest Entrance"
+Scene 2
 Beneath the moonlit oaks, Mira met Oliver, a turtle boy with a deep green shell patterned in golden vines, wrapped in flowing earth-toned robes, a rolled parchment map tucked under his arm. She held up the bronze lantern so he could see its faint amber glow.
 Oliver: "A lantern can't remember tomorrow."
 As she spoke, the lantern's light flared brighter, and within its glow a vision took shape, a great oak tree tipping and falling across a narrow bridge, leaving Oliver staring in silence for a long moment.
 Oliver: "If that's tomorrow, we have work to do."
 
-Scene 3 The Stone Bridge
-[ID BG_3] Location "Silverstream Riverbank"
+Scene 3
 Mira and Oliver hurried down to the riverside village, the lantern's warning still fresh in their minds. They found an Elder gathered near the old stone bridge, going about his evening as if nothing were wrong, and Mira raised the lantern to show him the vision.
 Elder: "No storm is coming."
 With no time to argue, Mira and Oliver climbed down to the bridge supports themselves, working quickly in the fading light as they wound thick ropes around the weathered beams to hold them steady against whatever was coming.
 
-Scene 4 Aftermath
-[ID BG_3] Location "Silverstream Riverbank"
+Scene 4
 The wind rose and the great oak groaned before it finally gave way, crashing down exactly where the vision had shown, but the reinforced bridge held firm and the falling tree slid harmlessly past the supports and into the riverbank beyond. The Elder rushed out from his home, staring in disbelief at the ropes and braces that had saved the crossing.
 Oliver: "The village is saved."
 ##Format end##
