@@ -102,10 +102,10 @@ Prefix every narrator line with Narrator Voice: "Text" on a separate line.
 
 Character Descriptions
 
-1. Mira the Rabbit, Female, [HUMANOID]
+Mira, Female, [HUMANOID]
 Age 10, Small rabbit girl with soft silver fur and bright, expressive amber eyes. Wears a brown traveler's tunic, dark brown boots, and a small leather satchel over her hip. Curious, brave, impatient, and always asking questions.
 
-2. Oliver the Turtle, Male, [HUMANOID]
+Oliver, Male, [HUMANOID]
 Age 11, Full Turtle head boy with a deep green shell featuring intricate golden vine patterns. Wears flowing earth-toned green robes and carries a rolled parchment map under his arm. Wise, thoughtful, and moves slowly.
 
 Objects Descriptions
@@ -167,10 +167,10 @@ Only write the visual action description.
 
 Character Descriptions
 
-1. Mira the Rabbit, Female, [HUMANOID]
+Mira, Female, [HUMANOID]
 Age 10, Small rabbit girl with soft silver fur and bright, expressive amber eyes. Wears a brown traveler's tunic, dark brown boots, and a small leather satchel over her hip. Curious, brave, impatient, and always asking questions.
 
-2. Oliver the Turtle, Male, [HUMANOID]
+Oliver, Male, [HUMANOID]
 Age 11, Full Turtle head boy with a deep green shell featuring intricate golden vine patterns. Wears flowing earth-toned green robes and carries a rolled parchment map under his arm. Wise, thoughtful, and moves slowly.
 
 Objects Descriptions
