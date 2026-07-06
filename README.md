@@ -29,14 +29,17 @@ Prefix every spoken line with CharacterName: "Quote" on a separate line.
 ##Format start##
 Character Descriptions
 
-Mira, the Rabbit, Female, [HUMANOID]
+Mira, Female, [HUMANOID]
 Age 10, Small rabbit girl with soft silver fur and bright, expressive amber eyes. Wears a brown traveler's tunic, dark brown boots, and a small leather satchel over her hip. Curious, brave, impatient, and always asking questions.
 
-Oliver, the Turtle, Male, [HUMANOID]
+Oliver, Male, [HUMANOID]
 Age 11, Full Turtle head boy with a deep green shell featuring intricate golden vine patterns. Wears flowing earth-toned green robes and carries a rolled parchment map under his arm. Wise, thoughtful, and moves slowly.
 
-Lumi, the Firefly, Female, [CREATURE]
+Lumi, Female, [CREATURE]
 Ancient, A glowing golden firefly no larger than a thumb. Has delicate translucent wings and a glowing body that pulses with warm yellow light. Speaks in a gentle, warm voice.
+
+Elder, Male, [HUMANOID]
+Age 65, Old badger man with grey fur and a stern face. Wears simple brown peasant clothes and leans on a wooden cane.
 
 Objects Descriptions
 
@@ -48,7 +51,7 @@ An aged, yellowed parchment map tied with a frayed brown cord, its edges soft an
 
 Scene 1 The Attic Discovery
 [ID BG_1] Location "The Attic of Willow Hollow Cottage"
-Rain tapped softly on the roof as Mira, a small rabbit girl with soft silver fur, bright amber eyes, and a brown traveler's tunic, climbed into her grandmother's dusty attic. Dust drifted through a thin beam of light as she pushed aside old boxes and found a tarnished bronze lantern tucked behind a stack of crates, its base circled with an etched vine pattern and its glass pane clouded with age.
+Rain tapped softly on the roof as Mira, a small rabbit girl with soft silver fur, bright amber eyes, and a brown traveler's tunic, climbed into her grandmother's dusty attic. Dust drifted through a thin beam of light as she pushed aside old boxes and found a tarnished bronze lantern tucked behind a stack of crates, its base circled with an etched vine pattern and its glass pane clouded with age. 
 Mira: "That's odd."
 She lifted the lantern gently, and a soft golden glow flickered to life beside her as a tiny firefly with translucent wings and a warmly pulsing body drifted into view, hovering close to greet her.
 Lumi: "I am Lumi."
@@ -62,15 +65,14 @@ Oliver: "If that's tomorrow, we have work to do."
 
 Scene 3 The Stone Bridge
 [ID BG_3] Location "Silverstream Riverbank"
-Mira and Oliver hurried down to the riverside village, the lantern's warning still fresh in their minds. They found the villagers gathered near the old stone bridge, going about their evening as if nothing were wrong, and Mira raised the lantern to show them the vision.
-The villagers shouted "No storm is coming."
+Mira and Oliver hurried down to the riverside village, the lantern's warning still fresh in their minds. They found an Elder gathered near the old stone bridge, going about his evening as if nothing were wrong, and Mira raised the lantern to show him the vision.
+Elder: "No storm is coming."
 With no time to argue, Mira and Oliver climbed down to the bridge supports themselves, working quickly in the fading light as they wound thick ropes around the weathered beams to hold them steady against whatever was coming.
 
 Scene 4 Aftermath
 [ID BG_3] Location "Silverstream Riverbank"
-The wind rose and the great oak groaned before it finally gave way, crashing down exactly where the vision had shown, but the reinforced bridge held firm and the falling tree slid harmlessly past the supports and into the riverbank beyond. Villagers rushed out from their homes, staring in disbelief at the ropes and braces that had saved the crossing.
+The wind rose and the great oak groaned before it finally gave way, crashing down exactly where the vision had shown, but the reinforced bridge held firm and the falling tree slid harmlessly past the supports and into the riverbank beyond. The Elder rushed out from his home, staring in disbelief at the ropes and braces that had saved the crossing.
 Oliver: "The village is saved."
-
 ##Format end##
 ```
 
