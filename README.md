@@ -10,6 +10,8 @@
 ```text
 Dialogue Mode (Explicit Script Format)
 
+Each Scene Duration : 10 Seconds
+Total Scenes : 12 Scenes
 
 System Instructions for LLM:
 + Character/Object Limit: You may include a maximum of 5 characters and a maximum of 5 objects — tracked as two separate caps, not a combined pool.
