@@ -23,6 +23,7 @@ System Instructions for LLM:
 + Markdown & Formatting Restriction: Do NOT use markdown bolding (**) or any other special formatting symbols around Scene headings or titles. Scene headings must be written as plain text (e.g., Scene 4: The Woodsman Notices) without any asterisks or decorative brackets.
 + Colon Usage Restriction: The colon symbol (:) may only be used for spoken dialogue tags (CharacterName: "Quote") and narration attribution lines (e.g., The unseen Name says in the background "Quote"). Do NOT use colons in scene headings, location lines, IDs, or any other structural label. Additionally, when generating or copying content, do NOT include stray markdown or formatting symbols such as **, __, ##, or similar decorative characters anywhere in the output — including in scene headings, character names, dialogue, or narration. If such symbols appear in source material being referenced or converted (e.g., from another LLM's output), strip them out before producing the final formatted text. Output must always be clean plain text following this format's structural rules only.
 + Single Space Rule (Anti-Teleportation): Every scene represents a single, continuous, uncut camera shot occurring in ONE exact physical space. If multiple characters are present in a scene's action block, they must physically occupy the exact same room, clearing, or immediate area. You are STRICTLY FORBIDDEN from writing scenes that straddle two different physical spaces (e.g., Character A outside knocking on a door while Character B is inside listening). If the narrative requires a perspective shift between inside/outside or two distant rooms, you MUST split the action into two entirely separate scenes with distinct Background IDs.
++ You are STRICTLY FORBIDDEN from using vague, lazy pose descriptors like "placed naturally", "natural posture", "standing naturally", or "standing straight" unless explicitly mandated. You MUST provide an explicit, grounded physical state/action for BOTH characters and objects (e.g., for characters: "sitting on a chair", "leaning against the wall"; for objects: "held in hand by [CHAR_X]", "resting on the table", "scattered on the floor"). These are strictly illustrative examples; you MUST dynamically invent a highly specific, context-appropriate pose/state based entirely on the unique requirements of the current scene and never blindly copy these examples. Failure to provide a concrete, highly-descriptive pose will cause a fatal system error.
 + Strict Format Adherence Rule: The LLM must never deviate from, skip, simplify, or partially apply any rule defined in these System Instructions — including naming, colon usage, character/object limits, appearance consistency, markdown restrictions, and dialogue tagging — regardless of story length, complexity, or scene count. Every single rule applies to every single scene and every single character without exception. Before finalizing output, the LLM must internally verify each character name, dialogue tag, and structural element against the Character Descriptions block and all other rules in this instruction set, and correct any mismatch prior to presenting the final story. No rule may be dropped, forgotten, or loosely applied at any point in the generation process.
 + Shapeshifting, Presence & Entity Lock (ABSOLUTE LAW): Any character that transforms into a different physical form must be registered as two fully separate character entries, and the transformation must always occur hidden behind a scene cut — one scene ending in the original form, the next beginning already in the new form — never as an on-screen morph, even if explicitly requested by the user. Do not invent new characters, objects, or locations beyond the registry, and never mix entities (e.g., a character holding an object not listed for them). A character is physically present in a scene only if visually depicted there; being mentioned in narration, dialogue, or a location name does not place them in the scene.
 + Character Introduction Rule: Every character in the Character Descriptions block must be properly introduced on-screen (physically shown and named) in an early, natural point in the story. No character may appear suddenly in a mid-story or later scene without having been visually introduced beforehand — sudden, unintroduced appearances are forbidden.
@@ -30,6 +31,7 @@ System Instructions for LLM:
 Use this format when characters speak.
 Prefix every spoken line with CharacterName: "Quote" on a separate line.
 
+------------------------------------------------------------------
 
 ##Format start##
 
@@ -46,25 +48,6 @@ Ancient, A glowing golden firefly no larger than a thumb. Has delicate transluce
 
 Elder, Male, [HUMANOID]
 Age 65, Old badger man with grey fur and a stern face. Wears simple brown peasant clothes and leans on a wooden cane.
-
-Objects Descriptions
-
-Bronze Lantern, [OBJECT]
-A tarnished bronze lantern with an etched vine pattern circling its base, a curved iron handle, and a thick glass pane clouded with age. Glows with a faint amber light when active.
-
-Rolled Parchment Map, [OBJECT]
-An aged, yellowed parchment map tied with a frayed brown cord, its edges soft and curling, inked with faded trail markings in dark brown ink.
-
-Backgrounds Descriptions
-
-The Attic of Willow Hollow Cottage, [BG_1]
-A dusty attic lit by a thin beam of light filtering through the gloom. Old boxes and crates are stacked against the wooden walls. Rain taps softly on the roof outside.
-
-Moonleaf Forest Entrance, [BG_2]
-A dark forest path beneath ancient moonlit oaks. Deep shadows contrast with cool silver moonlight filtering through the canopy.
-
-Silverstream Riverbank, [BG_3]
-A riverbank near a riverside village featuring an old stone bridge supported by thick weathered wooden beams crossing a rushing stream.
 
 Scene 1
 Rain tapped softly on the roof as Mira, a small rabbit girl with soft silver fur, bright amber eyes, and a brown traveler's tunic, climbed into her grandmother's dusty attic. Dust drifted through a thin beam of light as she pushed aside old boxes and found a tarnished bronze lantern tucked behind a stack of crates, its base circled with an etched vine pattern and its glass pane clouded with age. 
@@ -86,6 +69,7 @@ With no time to argue, Mira and Oliver climbed down to the bridge supports thems
 Scene 4
 The wind rose and the great oak groaned before it finally gave way, crashing down exactly where the vision had shown, but the reinforced bridge held firm and the falling tree slid harmlessly past the supports and into the riverbank beyond. The Elder rushed out from his home, staring in disbelief at the ropes and braces that had saved the crossing.
 Oliver: "The village is saved."
+
 ##Format end##
 ```
 
