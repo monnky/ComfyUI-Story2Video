@@ -56,24 +56,24 @@ Elder, Male, [HUMANOID]
 Age 65, Old badger man with grey fur and a stern face. Wears simple brown peasant clothes and leans on a wooden cane.
 
 Scene 1
-Rain tapped softly on the roof as Mira, a small rabbit girl with soft silver fur, bright amber eyes, and a brown traveler's tunic, climbed into her grandmother's dusty attic. Dust drifted through a thin beam of light as she pushed aside old boxes and found a tarnished bronze lantern tucked behind a stack of crates, its base circled with an etched vine pattern and its glass pane clouded with age. 
+Rain tapped softly on the roof as Mira, a small rabbit girl with soft silver fur, bright amber eyes, and a brown traveler's tunic, her small leather satchel hanging at her hip and her dark brown boots damp from the day, climbed into her grandmother's dusty attic. Dust drifted through a thin beam of light as she pushed aside old boxes and found a tarnished bronze lantern tucked behind a stack of crates, its base circled with an etched vine pattern and its glass pane clouded with age, resting on the floorboards where she'd uncovered it.
 Mira: "That's odd."
-She lifted the lantern gently, and a soft golden glow flickered to life beside her as a tiny firefly with translucent wings and a warmly pulsing body drifted into view, hovering close to greet her.
+She lifted the lantern with both hands, now holding it steady against her chest, and a soft golden glow flickered to life beside her as a tiny firefly with translucent wings and a warmly pulsing body drifted into view, hovering close to greet her at eye level.
 Lumi: "I am Lumi."
 
 Scene 2
-Beneath the moonlit oaks, Mira met Oliver, a turtle boy with a deep green shell patterned in golden vines, wrapped in flowing earth-toned robes, a rolled parchment map tucked under his arm. She held up the bronze lantern so he could see its faint amber glow.
+Beneath the moonlit oaks, Mira, still wearing her brown traveler's tunic and leather satchel at her hip, the bronze lantern held up in her right hand, met Oliver, a turtle boy with a deep green shell patterned in golden vines, wrapped in flowing earth-toned robes, a rolled parchment map tucked under his left arm. She raised the lantern higher so he could see its faint amber glow reflected on his shell.
 Oliver: "A lantern can't remember tomorrow."
-As she spoke, the lantern's light flared brighter, and within its glow a vision took shape, a great oak tree tipping and falling across a narrow bridge, leaving Oliver staring in silence for a long moment.
+As she spoke, the lantern's light flared brighter in her grip, and within its glow a vision took shape, a great oak tree tipping and falling across a narrow bridge, leaving Oliver staring in silence for a long moment, his parchment map still held motionless under his arm.
 Oliver: "If that's tomorrow, we have work to do."
 
 Scene 3
-Mira and Oliver hurried down to the riverside village, the lantern's warning still fresh in their minds. They found an Elder gathered near the old stone bridge, going about his evening as if nothing were wrong, and Mira raised the lantern to show him the vision.
+Mira and Oliver hurried down to the riverside village, the lantern's warning still fresh in their minds. Mira carried the bronze lantern in her right hand, her leather satchel bouncing against her hip, while Oliver, his rolled parchment map still tucked under his arm, moved carefully beside her in his earth-toned robes. They found an Elder, an old badger man in simple brown peasant clothes leaning on a wooden cane, gathered near the old stone bridge, going about his evening as if nothing were wrong. Mira raised the lantern toward him to show him the vision glowing within its glass.
 Elder: "No storm is coming."
-With no time to argue, Mira and Oliver climbed down to the bridge supports themselves, working quickly in the fading light as they wound thick ropes around the weathered beams to hold them steady against whatever was coming.
+With no time to argue, Mira set the lantern down on a flat stone at the foot of the bridge, its glow still pulsing faintly, while she and Oliver, having set his parchment map aside on the same stone, climbed down to the bridge supports themselves, working quickly in the fading light as they wound thick ropes around the weathered beams to hold them steady against whatever was coming.
 
 Scene 4
-The wind rose and the great oak groaned before it finally gave way, crashing down exactly where the vision had shown, but the reinforced bridge held firm and the falling tree slid harmlessly past the supports and into the riverbank beyond. The Elder rushed out from his home, staring in disbelief at the ropes and braces that had saved the crossing.
+The wind rose and the great oak groaned before it finally gave way, crashing down exactly where the vision had shown, but the reinforced bridge held firm, the ropes taut around the beams, and the falling tree slid harmlessly past the supports and into the riverbank beyond. The Elder, still leaning on his wooden cane, rushed out from his home, staring in disbelief at the ropes and braces that had saved the crossing. Nearby, the bronze lantern sat where Mira had left it on the flat stone, its glow now dimmed to a soft flicker, and Oliver's rolled parchment map lay beside it, untouched.
 Oliver: "The village is saved."
 
 ##Format end##
